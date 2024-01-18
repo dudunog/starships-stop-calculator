@@ -69,7 +69,6 @@ const Pagination = ({
 						'opacity-50 hover:bg-inherit hover:text-inherit hover:cursor-not-allowed':
 							currentPage === 1,
 					})}
-					// href=""
 				/>
 				<div className="flex gap-1">
 					{currentPage > 1 + siblingsCount && (
@@ -147,7 +146,6 @@ const Pagination = ({
 						'opacity-50 hover:bg-inherit hover:text-inherit hover:cursor-not-allowed':
 							nextPages.length === 0,
 					})}
-					// href=""
 				/>
 			</PaginationContent>
 		</PaginationUi>
